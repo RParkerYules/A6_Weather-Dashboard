@@ -8,8 +8,6 @@
 body {
     background-color: #d9dcd6;
     margin: 0;
-    display: flex;
-    flex-direction: column;
   
 }
 
@@ -29,10 +27,14 @@ h2 {
     color: Black;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
 
 .search {
     display: flex;
-    position: absolute;
+    position: relative;
     width: 20%;
     margin-left: 40px;
     margin-top: 20px;
@@ -44,7 +46,7 @@ h2 {
     width: 80%;
     float: right;
     margin-top: 50px;
-    margin-right: 40px;
+    margin-right: 20px;
     padding: 20px;
     height: 200px;
     background-color: white;
