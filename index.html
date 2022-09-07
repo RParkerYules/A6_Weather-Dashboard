@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./Assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Weather Dashboard</title>
 </head>
 
@@ -22,10 +23,10 @@
 
             <section class="details">
                 <div>
-                    <p>Temp: </p>
-                    <p>Wind: </p>
-                    <p>Humidity: </p>
-                    <p>UV Index: </p>
+                    <p>Temperature: <span id="temp"></span></p>
+                    <p>Feels Like: <span id="feels"></span></p>
+                    <p>Wind Speed: <span id="wind"></span></p>
+                    <p>Humidity: <span id="humidity"></span></p>
                 </div>
             </section>
             
@@ -50,6 +51,6 @@
 
 </body>
 
-<script type="text/javascript", src="script.js"></script>
+<script type="text/javascript", src="Assets/script.js"></script>
 
 </html>
